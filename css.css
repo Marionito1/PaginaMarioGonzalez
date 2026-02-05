@@ -1,0 +1,99 @@
+body{
+    background-color: antiquewhite;
+}
+
+.titulo{
+
+}
+.a_subtitulo{
+    color: grey;
+}
+.a_subtitulo{
+    text-decoration: none;
+    color: grey;
+}
+.a_subtitulo:hover{
+    color: orange;
+}
+
+
+.a_botonTexto{
+    text-decoration: none;
+    color: red;
+}
+.a_botonTexto:hover{
+    color: orange;
+}
+
+.divBorder_Imagen{
+    float: right;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/* PAGINA INDEX */
+
+.PaginaEnDesarrollo{
+    width: 5em;
+    float: right;
+}
+
+.index_div_introduccion{
+    margin-top: 1em;
+    margin-left: 1em;
+    float: left;
+    width: 47%;
+}
+.index_div_imagenes{
+    margin-top: 1em;
+    margin-right: 1em;
+    width: 42%;
+    float: right;
+    border-style: solid;
+}
+
+/* PAGINA INDEX */
+
+
+/* PAGINA SETUP*/
+
+.setup_div_introduccion{
+    margin-top: 1em;
+    margin-left: 1em;
+    float: left;
+    width: 47%;
+}
+.setup_div_imagenes{
+    margin-top: 1em;
+    margin-right: 1em;
+    width: 42%;
+    float: right;
+    border-style: solid;
+}
+.setup_div_logoUnity{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+
+
+/* PAGINA SETUP*/
+/*PAGINA INTRODUCCION*/
+
+.introduccion_div_introduccion{
+    margin-top: 1em;
+    margin-left: 1em;
+    float: left;
+    width: 47%;
+}
+.introduccion_div_imagenes{
+    margin-top: 1em;
+    margin-right: 1em;
+    width: 42%;
+    float: right;
+    border-style: solid;
+}
+
+/*PAGINA INTRODUCCION*/
