@@ -1,13 +1,62 @@
 body{
     background-color: antiquewhite;
+    font-family: "Montserrat", sans-serif;
 }
 
-.titulo{
 
+
+.menu {
+    position: relative;
+    display: inline-block;
 }
-.a_subtitulo{
-    color: grey;
+
+.menu-btn {
+    background-color: red;
+    color: antiquewhite;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
 }
+
+.menu-contenido {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+}
+
+.menu-contenido a {
+    color: black;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.menu-contenido a:hover {
+    background-color: orange;
+}
+
+/* 👇 Aquí ocurre la magia */
+.menu:hover .menu-contenido {
+    display: block;
+}
+
+
+
+.specialText{
+    color: red;
+}
+
+
+
+.barraBusqueda{
+    display: flex;
+}
+.flexItem{
+    margin-left: 10px;
+}
+
 .a_subtitulo{
     text-decoration: none;
     color: grey;
@@ -51,6 +100,12 @@ body{
     width: 42%;
     float: right;
     border-style: solid;
+}
+
+.index_div_logosRRSS{
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
 }
 
 /* PAGINA INDEX */

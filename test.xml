@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="test.xsl"?>
+<quiz>
+
+  <pregunta id="1">
+    <enunciado>¿Qué es Unity?</enunciado>
+    <opciones>
+      <opcion correcta="true">Un motor de videojuegos</opcion>
+      <opcion correcta="false">Un lenguaje de programación</opcion>
+      <opcion correcta="false">Un sistema operativo</opcion>
+      <opcion correcta="false">Una consola</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="2">
+    <enunciado>¿Qué lenguaje se usa principalmente en Unity?</enunciado>
+    <opciones>
+      <opcion correcta="true">C#</opcion>
+      <opcion correcta="false">Python</opcion>
+      <opcion correcta="false">Java</opcion>
+      <opcion correcta="false">C++</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="3">
+    <enunciado>¿Qué es un GameObject?</enunciado>
+    <opciones>
+      <opcion correcta="true">Entidad básica en una escena</opcion>
+      <opcion correcta="false">Un archivo de audio</opcion>
+      <opcion correcta="false">Un script</opcion>
+      <opcion correcta="false">Una textura</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="4">
+    <enunciado>¿Qué es un prefab?</enunciado>
+    <opciones>
+      <opcion correcta="true">Objeto reutilizable</opcion>
+      <opcion correcta="false">Un shader</opcion>
+      <opcion correcta="false">Una escena</opcion>
+      <opcion correcta="false">Un sonido</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="5">
+    <enunciado>¿Qué componente permite físicas?</enunciado>
+    <opciones>
+      <opcion correcta="true">Rigidbody</opcion>
+      <opcion correcta="false">Transform</opcion>
+      <opcion correcta="false">Camera</opcion>
+      <opcion correcta="false">Light</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="6">
+    <enunciado>¿Qué detecta colisiones?</enunciado>
+    <opciones>
+      <opcion correcta="true">Collider</opcion>
+      <opcion correcta="false">Animator</opcion>
+      <opcion correcta="false">AudioSource</opcion>
+      <opcion correcta="false">Canvas</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="7">
+    <enunciado>¿Qué método se ejecuta al iniciar?</enunciado>
+    <opciones>
+      <opcion correcta="true">Start()</opcion>
+      <opcion correcta="false">Update()</opcion>
+      <opcion correcta="false">FixedUpdate()</opcion>
+      <opcion correcta="false">AwakeLate()</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="8">
+    <enunciado>¿Qué método se ejecuta cada frame?</enunciado>
+    <opciones>
+      <opcion correcta="true">Update()</opcion>
+      <opcion correcta="false">Start()</opcion>
+      <opcion correcta="false">OnInit()</opcion>
+      <opcion correcta="false">LateStart()</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="9">
+    <enunciado>¿Qué es un script?</enunciado>
+    <opciones>
+      <opcion correcta="true">Código que controla comportamiento</opcion>
+      <opcion correcta="false">Imagen</opcion>
+      <opcion correcta="false">Modelo 3D</opcion>
+      <opcion correcta="false">Audio</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="10">
+    <enunciado>¿Qué gestiona animaciones?</enunciado>
+    <opciones>
+      <opcion correcta="true">Animator</opcion>
+      <opcion correcta="false">Collider</opcion>
+      <opcion correcta="false">Rigidbody</opcion>
+      <opcion correcta="false">Mesh</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="11">
+    <enunciado>¿Qué es Canvas?</enunciado>
+    <opciones>
+      <opcion correcta="true">Sistema UI</opcion>
+      <opcion correcta="false">Motor físico</opcion>
+      <opcion correcta="false">Shader</opcion>
+      <opcion correcta="false">Audio</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="12">
+    <enunciado>¿Qué gestiona escenas?</enunciado>
+    <opciones>
+      <opcion correcta="true">SceneManager</opcion>
+      <opcion correcta="false">AudioManager</opcion>
+      <opcion correcta="false">InputManager</opcion>
+      <opcion correcta="false">RenderManager</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="13">
+    <enunciado>¿Qué permite IA básica?</enunciado>
+    <opciones>
+      <opcion correcta="true">NavMesh</opcion>
+      <opcion correcta="false">ShaderGraph</opcion>
+      <opcion correcta="false">Timeline</opcion>
+      <opcion correcta="false">Canvas</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="14">
+    <enunciado>¿Qué reproduce sonido?</enunciado>
+    <opciones>
+      <opcion correcta="true">AudioSource</opcion>
+      <opcion correcta="false">Camera</opcion>
+      <opcion correcta="false">Light</opcion>
+      <opcion correcta="false">Mesh</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="15">
+    <enunciado>¿Qué es una escena?</enunciado>
+    <opciones>
+      <opcion correcta="true">Nivel del juego</opcion>
+      <opcion correcta="false">Script</opcion>
+      <opcion correcta="false">Shader</opcion>
+      <opcion correcta="false">Audio</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="16">
+    <enunciado>¿Qué es iluminación?</enunciado>
+    <opciones>
+      <opcion correcta="true">Simulación de luz</opcion>
+      <opcion correcta="false">Audio</opcion>
+      <opcion correcta="false">Código</opcion>
+      <opcion correcta="false">IA</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="17">
+    <enunciado>¿Qué es un shader?</enunciado>
+    <opciones>
+      <opcion correcta="true">Programa gráfico</opcion>
+      <opcion correcta="false">Audio</opcion>
+      <opcion correcta="false">Script IA</opcion>
+      <opcion correcta="false">Input</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="18">
+    <enunciado>¿Qué optimiza rendimiento?</enunciado>
+    <opciones>
+      <opcion correcta="true">Reducir draw calls</opcion>
+      <opcion correcta="false">Aumentar polígonos</opcion>
+      <opcion correcta="false">Más luces</opcion>
+      <opcion correcta="false">Más scripts</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="19">
+    <enunciado>¿Qué es un sistema de partículas?</enunciado>
+    <opciones>
+      <opcion correcta="true">Efectos visuales</opcion>
+      <opcion correcta="false">Audio</opcion>
+      <opcion correcta="false">IA</opcion>
+      <opcion correcta="false">UI</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="20">
+    <enunciado>¿Qué exporta el juego?</enunciado>
+    <opciones>
+      <opcion correcta="true">Build</opcion>
+      <opcion correcta="false">Prefab</opcion>
+      <opcion correcta="false">Script</opcion>
+      <opcion correcta="false">Shader</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="21">
+    <enunciado>¿Qué es Input?</enunciado>
+    <opciones>
+      <opcion correcta="true">Entrada del usuario</opcion>
+      <opcion correcta="false">Audio</opcion>
+      <opcion correcta="false">Shader</opcion>
+      <opcion correcta="false">IA</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="22">
+    <enunciado>¿Qué es Transform?</enunciado>
+    <opciones>
+      <opcion correcta="true">Posición, rotación y escala</opcion>
+      <opcion correcta="false">Audio</opcion>
+      <opcion correcta="false">UI</opcion>
+      <opcion correcta="false">IA</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="23">
+    <enunciado>¿Qué hace la cámara?</enunciado>
+    <opciones>
+      <opcion correcta="true">Muestra la vista del jugador</opcion>
+      <opcion correcta="false">Reproduce sonido</opcion>
+      <opcion correcta="false">Detecta colisiones</opcion>
+      <opcion correcta="false">Ejecuta scripts</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="24">
+    <enunciado>¿Qué es Time.deltaTime?</enunciado>
+    <opciones>
+      <opcion correcta="true">Tiempo entre frames</opcion>
+      <opcion correcta="false">Tiempo total del juego</opcion>
+      <opcion correcta="false">FPS</opcion>
+      <opcion correcta="false">Velocidad</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="25">
+    <enunciado>¿Qué es FixedUpdate?</enunciado>
+    <opciones>
+      <opcion correcta="true">Método para físicas</opcion>
+      <opcion correcta="false">Método de UI</opcion>
+      <opcion correcta="false">Método de audio</opcion>
+      <opcion correcta="false">Método de render</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="26">
+    <enunciado>¿Qué es un botón UI?</enunciado>
+    <opciones>
+      <opcion correcta="true">Elemento interactivo</opcion>
+      <opcion correcta="false">Collider</opcion>
+      <opcion correcta="false">Audio</opcion>
+      <opcion correcta="false">Mesh</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="27">
+    <enunciado>¿Qué es un sprite?</enunciado>
+    <opciones>
+      <opcion correcta="true">Imagen 2D</opcion>
+      <opcion correcta="false">Audio</opcion>
+      <opcion correcta="false">Shader</opcion>
+      <opcion correcta="false">IA</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="28">
+    <enunciado>¿Qué es Asset Store?</enunciado>
+    <opciones>
+      <opcion correcta="true">Tienda de recursos</opcion>
+      <opcion correcta="false">Sistema de audio</opcion>
+      <opcion correcta="false">Motor físico</opcion>
+      <opcion correcta="false">Editor de código</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="29">
+    <enunciado>¿Qué hace Debug.Log?</enunciado>
+    <opciones>
+      <opcion correcta="true">Imprime en consola</opcion>
+      <opcion correcta="false">Reproduce audio</opcion>
+      <opcion correcta="false">Renderiza gráficos</opcion>
+      <opcion correcta="false">Detecta colisiones</opcion>
+    </opciones>
+  </pregunta>
+
+  <pregunta id="30">
+    <enunciado>¿Qué es una Layer?</enunciado>
+    <opciones>
+      <opcion correcta="true">Sistema de capas</opcion>
+      <opcion correcta="false">Sistema de audio</opcion>
+      <opcion correcta="false">Sistema de UI</opcion>
+      <opcion correcta="false">Sistema de físicas</opcion>
+    </opciones>
+  </pregunta>
+
+</quiz>
